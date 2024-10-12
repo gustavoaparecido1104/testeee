@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #15151e;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.fia-logo img {
+    height: 30px;
+}
+
+.series-links ul, .extra-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.series-links ul li a, .extra-links ul li a {
+    color: #15151e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-bottom {
+    background-color: #e10600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-buttons a {
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sign-in {
+    background-color: #15151e;
+    color: white;
+}
+
+.subscribe {
+    background-color: white;
+    color: #e10600;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.featured-article {
+    grid-column: 1 / -1;
+    position: relative;
+}
+
+.featured-article img {
+    width: 100%;
+    height: auto;
+}
+
+.article-details {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    padding: 15px;
+}
+
+.related-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.related-item img {
+    width: 100%;
+    height: auto;
+}
+
+.history-section {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+}
+
+.history-image img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #15151e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
